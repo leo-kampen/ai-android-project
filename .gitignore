@@ -1,0 +1,56 @@
+# -------------------------------------------------
+# Android / Gradle specific ignores
+# -------------------------------------------------
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.rar
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+gen/
+out/
+build/
+*/build/
+app/build/
+*/build/
+
+# Gradle files
+.gradle/
+**/gradle-wrapper.properties
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Keystore files (if you create one)
+*.jks
+*.keystore
+
+# OS generated files
+.DS_Store
+Thumbs.db
